@@ -2,9 +2,17 @@ class ConfigurationError(Exception):
     pass
 
 
-class CommandError(Exception):
+class DataError(Exception):
     pass
 
 
-class UserDataError(Exception):
+class NoSuchResourceError(Exception):
+    pass
+
+
+class MultipleResourcesError(Exception):
+    pass
+
+
+class UnhealthyResourceError(Exception):
     pass
